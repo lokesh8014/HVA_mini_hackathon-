@@ -1,0 +1,477 @@
+.Frame19 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 89px;
+}
+
+.Frame7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.Hedding {
+  color: var(--Dark, #3c3030);
+  font-family: 'Iowan Old Style', serif;
+  font-size: 84px;
+  font-weight: 400;
+  line-height: 140%; /* 117.6px */
+}
+
+.Frame18 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+}
+
+.Line1 {
+  width: 1880px;
+  height: 1px;
+  background: #3c3030;
+}
+
+.Line2 {
+  width: 1880px;
+  height: 1px;
+  background: #3c3030;
+}
+
+.image {
+  width: 60.291px;
+  height: 60.291px;
+  fill: #e84848;
+}
+
+.Group1 {
+  width: 327px;
+  height: 61px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 2;
+}
+.rectangle {
+  width: 267px;
+  height: 60px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid var(--Dark, #3c3030);
+  opacity: 0.3;
+}
+
+.search {
+  color: var(--Dark, #3c3030);
+  font-family: 'Iowan Old Style';
+  font-size: 20px;
+}
+
+.Frame14 {
+  padding: 17px 13px 16px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 1px;
+  border: 1px solid #e84848;
+  background: #e84848;
+}
+
+.Go {
+  color: var(--light, #fdfdfa);
+  font-family: 'Iowan Old Style';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%; /* 28px */
+}
+
+.Frame15 {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+
+.Frame17 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.Text {
+  color: var(--Dark-Red, #d02424);
+  font-family: 'Inria Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.Frame5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 96px;
+}
+
+.row1,
+.row2,
+.row3 {
+  display: flex;
+  align-items: flex-start;
+  gap: 80px;
+  margin-bottom: 96px;
+}
+
+.news1,
+.news2,
+.news3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  width: 250px;
+}
+
+.ScreenShot1,
+.ScreenShot2,
+.ScreenShot3 {
+  width: 250px;
+  height: 120px;
+  background-color: lightgray;
+  background-size: cover;
+  background-position: center;
+}
+
+.headtext1,
+.headtext2,
+.headtext3 {
+  color: var(--Dark, #3c3030);
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -0.72px;
+}
+
+.maintext1,
+.maintext2,
+.maintext3 {
+  color: var(--Dark, #3c3030);
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+  opacity: 0.8;
+}
+
+.Frame8 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.arrowtext {
+  color: var(--Dark, #3c3030);
+  font-family: 'Inria Sans', sans-serif;
+  font-size: 16px;
+}
+
+.arrow {
+  color: var(--Dark-Red, #d02424);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 22.4px */
+  text-decoration-line: underline;
+}
+.Frame16 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 59px;
+}
+
+.Line4 {
+  width: 1440px;
+  height: 1px;
+  background: #3c3030;
+}
+
+.Frame13 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.Frame12 {
+  display: flex;
+  align-items: center;
+  gap: 2.264px;
+}
+
+.News {
+  color: var(--Dark, #3c3030);
+  font-family: 'Iowan Old Style';
+  font-size: 15.095px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 21.133px */
+}
+
+.org {
+  color: var(--Dark, #3c3030);
+  font-family: 'Iowan Old Style';
+  font-size: 15.095px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 21.133px */
+}
+
+.cont {
+  color: var(--Dark, #3c3030);
+  font-family: 'Inria Serif';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+}
+
+@media screen and (max-width: 568px) {
+  .Frame19 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .Frame7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.712px;
+    width: 567;
+  }
+
+  .Hedding {
+    color: var(--Dark, #3c3030);
+    font-family: 'Iowan Old Style';
+    font-size: 35.957px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 50.34px */
+  }
+
+  .image {
+    width: 25.809px;
+    height: 25.809px;
+  }
+
+  .Frame18 {
+    width: 414px;
+    height: 3px;
+  }
+
+  .Line1 {
+    width: 567px;
+    height: 1px;
+    background: #3C3030;
+    margin-top: -40px;
+  }
+
+  .Line2 {
+    width: 567px;
+    height: 1px;
+    background: #3C3030;
+  }
+
+  .Group1 {
+    width: 362px;
+    height: 61px;
+  }
+
+  .rectangle {
+    width: 303px;
+    height: 60px;
+    flex-shrink: 0;
+    border: 1px solid var(--Dark, #3c3030);
+    opacity: 0.3;
+  }
+
+  .search {
+    color: var(--Dark, #3c3030);
+    font-family: 'Iowan Old Style';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    opacity: 0.61;
+  }
+
+  .Frame14 {
+    display: inline-flex;
+    padding: 17px 13px 16px 22px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 1px;
+    border: 1px solid #e84848;
+    background: #e84848;
+  }
+
+  .Go {
+    color: var(--light, #fdfdfa);
+    font-family: 'Iowan Old Style';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+  }
+
+  .Frame15 {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+  }
+
+  .Frame17 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+
+  .Text {
+    color: var(--Dark-Red, #d02424);
+    font-family: 'Inria Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+  }
+
+  .Frame5 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+  }
+
+  .row1,
+  .row2,
+  .row3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .news1,
+  .news2,
+  .news3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .ScreenShot1,
+  .ScreenShot2,
+  .ScreenShot3 {
+    width: 478px;
+    height: 180px;
+    background: url(<path-to-image>) lightgray 0px -11.261px / 100% 116.783% no-repeat;
+  }
+
+  .headtext1,
+  .headtext2,
+  .headtext3 {
+    width: 360px;
+    color: var(--Dark, #3c3030);
+    font-family: 'Inknut Antiqua';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 21.6px */
+    letter-spacing: -0.72px;
+  }
+
+  .maintext1,
+  .maintext2,
+  .maintext3 {
+    width: 361px;
+    color: var(--Dark, #3c3030);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    opacity: 0.8;
+  }
+
+  .Frame8 {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .arrowtext {
+    color: var(--Dark, #3c3030);
+    font-family: 'Inria Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+  }
+
+  .arrow {
+    color: var(--Dark-Red, #d02424);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 22.4px */
+    text-decoration-line: underline;
+  }
+
+  .Frame16 {
+    display: flex;
+    height: 162px;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+  }
+
+  .Line4 {
+    width: 414px;
+    height: 1px;
+    background: #3c3030;
+  }
+
+  .Frame13 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Frame12 {
+    display: flex;
+    align-items: center;
+    gap: 2.264px;
+  }
+
+  .cont {
+    color: var(--Dark, #3c3030);
+    text-align: center;
+    font-family: 'Inria Serif';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+  }
+}
